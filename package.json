@@ -3,6 +3,10 @@
   "description": "Scaffold Cardscript from a JSON-Schema schema",
   "version": "0.0.0",
   "author": "Tim Needham",
+  "keywords": [
+    "tymly",
+    "cardscript"
+  ],
   "main": "./lib/index.js",
   "dependencies": {
     "lodash": "^4.17.11",
