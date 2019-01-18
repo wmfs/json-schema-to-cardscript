@@ -2,22 +2,30 @@
 
 'use strict'
 const jsonSchemaToCardscript = require('../lib/index')
-const pizzaModel = require('./fixtures/model/pizza')
-const expectedForm = require('./fixtures/expected/pizza-form.json')
 
 const chai = require('chai')
 const expect = chai.expect
 
 describe('Run some simple conversions', function () {
-  it('Convert pizza model', function () {
-    const cardscript = jsonSchemaToCardscript(
-      pizzaModel,
-      {
-        schemaFilename: 'pizza.json',
-        purpose: 'editing'
-      }
-    )
+  const tests = [
+    ['all fields', { }, 'pizza-form'],
+    ['some fields', { fields: ['code', 'label', 'vegetarian'] }, 'some-fields-form']
+  ]
 
-    expect(cardscript).to.eql(expectedForm)
-  })
+  const pizzaModel = require('./fixtures/model/pizza')
+  for (const [name, options, result] of tests) {
+    const expectedForm = require(`./fixtures/expected/${result}`)
+
+    options.schemaFilename = 'pizza.json'
+    options.purpose = 'editing'
+
+    it(name, () => {
+      const cardscript = jsonSchemaToCardscript(
+        pizzaModel,
+        options
+      )
+
+      expect(cardscript).to.eql(expectedForm)
+    })
+  }
 })

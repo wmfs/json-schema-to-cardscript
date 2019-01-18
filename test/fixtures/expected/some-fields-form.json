@@ -1,0 +1,39 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0",
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Jumbotron",
+      "title": "Pizza Editor",
+      "subtitle": "A form for editing a Pizza."
+    },
+    {
+      "id": "code",
+      "type": "Input.Text",
+      "title": "Unique code of the pizza",
+      "placeholder": "e.g. CHEESE_TOMATO"
+    },
+    {
+      "id": "label",
+      "type": "Input.Text",
+      "title": "Customer-facing label",
+      "placeholder": "e.g. Cheese & Tomato"
+    },
+    {
+      "id": "vegetarian",
+      "type": "Input.Toggle",
+      "title": "Is the pizza suitable for vegetarians?"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Cancel",
+      "title": "Cancel"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Submit"
+    }
+  ]
+}
