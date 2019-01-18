@@ -1,0 +1,125 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0",
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Jumbotron",
+      "title": "Pizza Editor",
+      "subtitle": "A form for editing a Pizza."
+    },
+    {
+      "id": "code",
+      "type": "Input.Text",
+      "title": "Unique code of the pizza",
+      "placeholder": "e.g. CHEESE_TOMATO"
+    },
+    {
+      "id": "label",
+      "type": "Input.Text",
+      "title": "Customer-facing label",
+      "placeholder": "e.g. Cheese & Tomato"
+    },
+    {
+      "id": "popularitySeq",
+      "type": "Input.Number",
+      "title": "Integer value to order lists by"
+    },
+    {
+      "id": "imageUri",
+      "type": "Input.Text",
+      "title": "URI to an enticing photo of the pizza",
+      "placeholder": "e.g. https://tinyurl.com/y8r5bbu5"
+    },
+    {
+      "id": "crusts",
+      "type": "Input.ChoiceSet",
+      "choices": [
+        {
+          "value": "Normal",
+          "title": "Normal"
+        },
+        {
+          "value": "Stuffed",
+          "title": "Stuffed"
+        },
+        {
+          "value": "Hot Dog",
+          "title": "Hot Dog"
+        }
+      ],
+      "isMultiSelect": true
+    },
+    {
+      "id": "vegetarian",
+      "type": "Input.Toggle",
+      "title": "Is the pizza suitable for vegetarians?"
+    },
+    {
+      "id": "allergens",
+      "type": "Input.Text",
+      "title": "List of allergens present in pizza",
+      "placeholder": "e.g. [Gluten,Wheat,Milk]"
+    },
+    {
+      "id": "availabilityEnd",
+      "type": "Input.DateTime",
+      "title": "Date when pizza is no longer available.",
+      "placeholder": "e.g. 2019-12-31"
+    },
+    {
+      "id": "reviews",
+      "type": "CardList",
+      "editable": true,
+      "addButtonLabel": "Add review",
+      "title": "Favourable customer reviews",
+      "instanceTitleTemplate": "{{item.username}}",
+      "instanceSubtitleTemplate": "{{item.review}}",
+      "card": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "version": "1.0",
+        "type": "AdaptiveCard",
+        "body": [
+          {
+            "id": "username",
+            "type": "Input.Text",
+            "title": "Who wrote the review",
+            "placeholder": "e.g. joebloggs4"
+          },
+          {
+            "id": "review",
+            "type": "Input.Text",
+            "title": "Something nice to say",
+            "placeholder": "e.g. Lovely stuff!"
+          },
+          {
+            "id": "rating",
+            "type": "Input.Number",
+            "title": "Star rating (0=Awful 5=Great)",
+            "placeholder": "e.g. 5"
+          }
+        ],
+        "actions": [
+          {
+            "type": "Action.Cancel",
+            "title": "Cancel"
+          },
+          {
+            "type": "Action.Submit",
+            "title": "Submit"
+          }
+        ]
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Cancel",
+      "title": "Cancel"
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Submit"
+    }
+  ]
+}

@@ -2,9 +2,11 @@
 
 'use strict'
 const jsonSchemaToCardscript = require('../lib/index')
-const pizzaModel = require('./fixtures/pizza')
-// const chai = require('chai')
-// const expect = chai.expect
+const pizzaModel = require('./fixtures/model/pizza')
+const expectedForm = require('./fixtures/expected/pizza-form.json')
+
+const chai = require('chai')
+const expect = chai.expect
 
 describe('Run some simple conversions', function () {
   it('Convert pizza model', function () {
@@ -15,6 +17,7 @@ describe('Run some simple conversions', function () {
         purpose: 'editing'
       }
     )
-    console.log(JSON.stringify(cardscript, null, 2))
+
+    expect(cardscript).to.eql(expectedForm)
   })
 })
