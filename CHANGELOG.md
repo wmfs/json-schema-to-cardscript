@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.1.0...v1.2.0) (2019-01-25)
+
+
+### ✨ Features
+
+* More ignoring of package-lock.json. ([a1a3fc4](https://github.com/wmfs/json-schema-to-cardscript/commit/a1a3fc4))
+
 # [1.1.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.0.0...v1.1.0) (2019-01-18)
 
 
