@@ -121,5 +121,10 @@
       "type": "Action.Submit",
       "title": "Submit"
     }
-  ]
+  ],
+  "meta": {
+    "data": {
+      "modelName": "pizza"
+    }
+  }
 }

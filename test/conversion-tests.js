@@ -18,12 +18,15 @@ describe('Run some simple conversions', function () {
 
     options.schemaFilename = 'pizza.json'
     options.purpose = 'editing'
+    options.modelName = 'pizza'
 
     it(name, () => {
       const cardscript = jsonSchemaToCardscript(
         pizzaModel,
         options
       )
+
+      delete cardscript.meta.generatedOn
 
       expect(cardscript).to.eql(expectedForm)
     })
