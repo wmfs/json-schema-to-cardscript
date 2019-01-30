@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.2.0...v1.3.0) (2019-01-30)
+
+
+### ✨ Features
+
+* Drop meta field into cardscript, with some details about model, generation time, etc ([feb94f2](https://github.com/wmfs/json-schema-to-cardscript/commit/feb94f2))
+
 # [1.2.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.1.0...v1.2.0) (2019-01-25)
 
 
