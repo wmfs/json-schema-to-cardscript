@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.3.0...v1.4.0) (2019-02-06)
+
+
+### ✨ Features
+
+* Added support for output fields and forms ([e5d1e2b](https://github.com/wmfs/json-schema-to-cardscript/commit/e5d1e2b))
+
 # [1.3.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.2.0...v1.3.0) (2019-01-30)
 
 
