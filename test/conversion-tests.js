@@ -7,13 +7,16 @@ const chai = require('chai')
 const expect = chai.expect
 
 describe('Run some simple conversions', function () {
+  const pizzaModel = require('./fixtures/model/pizza')
+  const pizzaOutputModel = require('./fixtures/model/pizza-output')
+
   const tests = [
     ['all fields', { }, 'pizza-form'],
-    ['some fields', { fields: ['code', 'label', 'vegetarian'] }, 'some-fields-form']
+    ['some fields', { fields: ['code', 'label', 'vegetarian'] }, 'some-fields-form'],
+    ['some output fields', { fields: ['code', 'label', 'vegetarian'] }, 'some-output-fields-form', pizzaOutputModel]
   ]
 
-  const pizzaModel = require('./fixtures/model/pizza')
-  for (const [name, options, result] of tests) {
+  for (const [name, options, result, model = pizzaModel] of tests) {
     const expectedForm = require(`./fixtures/expected/${result}`)
 
     options.schemaFilename = 'pizza.json'
@@ -22,7 +25,7 @@ describe('Run some simple conversions', function () {
 
     it(name, () => {
       const cardscript = jsonSchemaToCardscript(
-        pizzaModel,
+        model,
         options
       )
 
