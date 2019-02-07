@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.4.0...v1.5.0) (2019-02-07)
+
+
+### ✨ Features
+
+* Add output flag in schema rather than monkeying with type. ([e0227ce](https://github.com/wmfs/json-schema-to-cardscript/commit/e0227ce))
+
 # [1.4.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.3.0...v1.4.0) (2019-02-06)
 
 
