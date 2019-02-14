@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.6.1...v1.7.0) (2019-02-14)
+
+
+### ✨ Features
+
+* **jumbotron:** option.{ title, description } used for forms, if provided ([cf2ffed](https://github.com/wmfs/json-schema-to-cardscript/commit/cf2ffed))
+
 ## [1.6.1](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.6.0...v1.6.1) (2019-02-14)
 
 
