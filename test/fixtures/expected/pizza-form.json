@@ -33,6 +33,7 @@
     },
     {
       "id": "crusts",
+      "title": "Offer which crust options?",
       "type": "Input.ChoiceSet",
       "choices": [
         {
@@ -47,13 +48,22 @@
           "value": "Hot Dog",
           "title": "Hot Dog"
         }
-      ],
-      "isMultiSelect": true
+      ]
     },
     {
       "id": "vegetarian",
-      "type": "Input.Toggle",
-      "title": "Is the pizza suitable for vegetarians?"
+      "type": "Input.ChoiceSet",
+      "title": "Is the pizza suitable for vegetarians?",
+      "choices": [
+        {
+          "value": "YES",
+          "title": "Yes"
+        },
+        {
+          "value": "NO",
+          "title": "No"
+        }
+      ]
     },
     {
       "id": "allergens",

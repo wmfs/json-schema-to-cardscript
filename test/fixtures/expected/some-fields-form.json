@@ -22,8 +22,19 @@
     },
     {
       "id": "vegetarian",
-      "type": "Input.Toggle",
-      "title": "Is the pizza suitable for vegetarians?"
+      "type": "Input.ChoiceSet",
+      "title": "Is the pizza suitable for vegetarians?",
+      "choices": [
+        {
+          "value": "YES",
+          "title": "Yes"
+        },
+        {
+          "value": "NO",
+          "title": "No"
+        }
+      ]
+
     }
   ],
   "actions": [
