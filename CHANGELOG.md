@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.6.0...v1.6.1) (2019-02-14)
+
+
+### 🐛 Bug Fixes
+
+* Correct for typeHint === 'boolean' ([8d2bfd9](https://github.com/wmfs/json-schema-to-cardscript/commit/8d2bfd9))
+
 # [1.6.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.5.0...v1.6.0) (2019-02-14)
 
 
