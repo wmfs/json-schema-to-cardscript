@@ -1,3 +1,30 @@
+# [1.6.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.5.0...v1.6.0) (2019-02-14)
+
+
+### ✨ Features
+
+* Use any typeHint to help us generate the cardscript ([9cd0b34](https://github.com/wmfs/json-schema-to-cardscript/commit/9cd0b34))
+
+
+### 🐛 Bug Fixes
+
+* Move setting element title from addDescriptions to makeBaseElement ([89cc9d4](https://github.com/wmfs/json-schema-to-cardscript/commit/89cc9d4))
+
+
+### 🛠 Builds
+
+* **deps:** Pull in [@wmfs](https://github.com/wmfs)/tymly-data-types ([e18e446](https://github.com/wmfs/json-schema-to-cardscript/commit/e18e446))
+
+
+### 📦 Code Refactoring
+
+* **element-generator-picker:** Simplified generator selection ([7376f09](https://github.com/wmfs/json-schema-to-cardscript/commit/7376f09))
+
+
+### 🚨 Tests
+
+* Update tests to include a typeHint ([b1bd869](https://github.com/wmfs/json-schema-to-cardscript/commit/b1bd869))
+
 # [1.5.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.4.0...v1.5.0) (2019-02-07)
 
 
