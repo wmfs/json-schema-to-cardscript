@@ -66,6 +66,11 @@
       ]
     },
     {
+      "id": "vegan",
+      "type": "Input.Toggle",
+      "title": "Is it fully vegan?"
+    },
+    {
       "id": "allergens",
       "type": "Input.Text",
       "title": "List of allergens present in pizza",

@@ -52,6 +52,11 @@
       "type": "string",
       "typeHint": "yesNo"
     },
+    "vegan": {
+      "title": "Is it fully vegan?",
+      "type": "boolean",
+      "typeHint": "boolean"
+    },
     "allergens": {
       "title": "List of allergens present in pizza",
       "examples": [
