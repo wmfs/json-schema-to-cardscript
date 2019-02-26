@@ -1,3 +1,15 @@
+# [1.8.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.7.0...v1.8.0) (2019-02-26)
+
+
+### ✨ Features
+
+* Generate templateMeta section ([4a98aa9](https://github.com/wmfs/json-schema-to-cardscript/commit/4a98aa9))
+
+
+### 💎 Styles
+
+* Lint fix ([766cc0a](https://github.com/wmfs/json-schema-to-cardscript/commit/766cc0a))
+
 # [1.7.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.6.1...v1.7.0) (2019-02-14)
 
 
