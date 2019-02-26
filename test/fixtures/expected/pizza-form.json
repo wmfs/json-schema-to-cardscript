@@ -141,5 +141,10 @@
     "data": {
       "modelName": "pizza"
     }
+  },
+  "templateMeta": {
+    "category": "pizza",
+    "name": "all fields",
+    "title": "Pizza Editor"
   }
 }

@@ -1,6 +1,5 @@
 /* eslint-env mocha */
 
-'use strict'
 const jsonSchemaToCardscript = require('../lib/index')
 
 const chai = require('chai')
@@ -19,9 +18,11 @@ describe('Run some simple conversions', function () {
   for (const [name, options, result, model = pizzaModel] of tests) {
     const expectedForm = require(`./fixtures/expected/${result}`)
 
+    options.name = name
     options.schemaFilename = 'pizza.json'
     options.purpose = 'editing'
     options.modelName = 'pizza'
+    options.category = 'pizza'
 
     it(name, () => {
       const cardscript = jsonSchemaToCardscript(

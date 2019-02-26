@@ -40,5 +40,10 @@
     "data": {
       "modelName": "pizza"
     }
+  },
+  "templateMeta": {
+    "category": "pizza",
+    "name": "some output fields",
+    "title": "Pizza Editor"
   }
 }
