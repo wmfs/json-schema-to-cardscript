@@ -9,7 +9,7 @@
   ],
   "main": "./lib/index.js",
   "dependencies": {
-    "@wmfs/tymly-data-types": "1.3.0",
+    "@wmfs/tymly-data-types": "1.5.0",
     "lodash": "4.17.11",
     "lodash-inflection": "1.5.0"
   },
