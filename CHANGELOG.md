@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.8.0...v1.9.0) (2019-03-19)
+
+
+### ✨ Features
+
+* Add choices to a FactSet Fact if available. ([6d5bf68](https://github.com/wmfs/json-schema-to-cardscript/commit/6d5bf68))
+
 # [1.8.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.7.0...v1.8.0) (2019-02-26)
 
 
