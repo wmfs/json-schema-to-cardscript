@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.9.0...v1.10.0) (2019-04-03)
+
+
+### ✨ Features
+
+* Add support for tables ([48a3574](https://github.com/wmfs/json-schema-to-cardscript/commit/48a3574))
+
 # [1.9.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.8.0...v1.9.0) (2019-03-19)
 
 
