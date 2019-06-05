@@ -1,3 +1,15 @@
+# [1.11.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.10.0...v1.11.0) (2019-06-05)
+
+
+### ✨ Features
+
+* Update to work with workbook conversion ([1d979f2](https://github.com/wmfs/json-schema-to-cardscript/commit/1d979f2))
+
+
+### 🐛 Bug Fixes
+
+* Add in missing file ([7a0fcda](https://github.com/wmfs/json-schema-to-cardscript/commit/7a0fcda))
+
 # [1.10.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.9.0...v1.10.0) (2019-04-03)
 
 
