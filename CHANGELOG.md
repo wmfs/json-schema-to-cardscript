@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.11.0...v1.12.0) (2019-06-12)
+
+
+### ✨ Features
+
+* Update to work with workbook showWhens ([712102d](https://github.com/wmfs/json-schema-to-cardscript/commit/712102d))
+
 # [1.11.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.10.0...v1.11.0) (2019-06-05)
 
 
