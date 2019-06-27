@@ -1,3 +1,14 @@
+# [1.13.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.12.0...v1.13.0) (2019-06-27)
+
+
+### 🛠 Builds
+
+* **deps:** update [@wmfs](https://github.com/wmfs)/tymly-data-types requirement ([ac8db1d](https://github.com/wmfs/json-schema-to-cardscript/commit/ac8db1d))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([765d6a1](https://github.com/wmfs/json-schema-to-cardscript/commit/765d6a1))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([0584c20](https://github.com/wmfs/json-schema-to-cardscript/commit/0584c20))
+* **deps-dev:** update semantic-release requirement ([a57ec89](https://github.com/wmfs/json-schema-to-cardscript/commit/a57ec89))
+* **deps-dev:** update semantic-release requirement ([35da00d](https://github.com/wmfs/json-schema-to-cardscript/commit/35da00d))
+
 # [1.12.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.11.0...v1.12.0) (2019-06-12)
 
 
