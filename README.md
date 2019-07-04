@@ -1,7 +1,7 @@
 # json-schema-to-cardscript
 
 [![Tymly Cardscript](https://img.shields.io/badge/tymly-cardscript-blue.svg)](https://tymly.io/)
-[![Build Status](https://travis-ci.com/wmfs/json-schema-to-cardscript.svg?branch=master)](https://travis-ci.com/wmfs/json-schema-to-cardscript)
+[![CircleCI](https://circleci.com/gh/wmfs/json-schema-to-cardscript.svg?style=svg)](https://circleci.com/gh/wmfs/json-schema-to-cardscript)
 [![npm (scoped)](https://img.shields.io/npm/v/@wmfs/json-schema-to-cardscript.svg)](https://www.npmjs.com/package/@wmfs/json-schema-to-cardscript) 
 [![codecov](https://codecov.io/gh/wmfs/json-schema-to-cardscript/branch/master/graph/badge.svg)](https://codecov.io/gh/wmfs/json-schema-to-cardscript) 
 [![CodeFactor](https://www.codefactor.io/repository/github/wmfs/json-schema-to-cardscript/badge)](https://www.codefactor.io/repository/github/wmfs/json-schema-to-cardscript) 
