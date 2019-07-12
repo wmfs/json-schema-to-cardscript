@@ -1,3 +1,24 @@
+# [1.14.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.13.0...v1.14.0) (2019-07-12)
+
+
+### 🛠 Builds
+
+* **deps:** update lodash requirement from 4.17.11 to 4.17.14 ([e51f88e](https://github.com/wmfs/json-schema-to-cardscript/commit/e51f88e))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([c105c2f](https://github.com/wmfs/json-schema-to-cardscript/commit/c105c2f))
+* **deps-dev:** update mocha requirement from 5.2.0 to 6.1.4 ([441810e](https://github.com/wmfs/json-schema-to-cardscript/commit/441810e))
+* **deps-dev:** update nyc requirement from 13.1.0 to 14.1.1 ([86b2df0](https://github.com/wmfs/json-schema-to-cardscript/commit/86b2df0))
+
+
+### 📚 Documentation
+
+* Add CircleCI badge to readme ([8aa9858](https://github.com/wmfs/json-schema-to-cardscript/commit/8aa9858))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** Add CircleCI config ([cb115da](https://github.com/wmfs/json-schema-to-cardscript/commit/cb115da))
+* **travis:** Remove Travis config ([2a5ebea](https://github.com/wmfs/json-schema-to-cardscript/commit/2a5ebea))
+
 # [1.13.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.12.0...v1.13.0) (2019-06-27)
 
 
