@@ -5,8 +5,7 @@
   "author": "West Midlands Fire Service",
   "keywords": [
     "tymly",
-    "cardscript",
-    "package"
+    "cardscript"
   ],
   "main": "./lib/index.js",
   "dependencies": {
