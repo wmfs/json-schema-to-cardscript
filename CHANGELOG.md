@@ -1,3 +1,18 @@
+# [1.15.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.14.0...v1.15.0) (2019-12-31)
+
+
+### 🛠 Builds
+
+* **deps:** update lodash requirement from 4.17.14 to 4.17.15 ([83bdb08](https://github.com/wmfs/json-schema-to-cardscript/commit/83bdb0810cb51d5afb65fefc64a8113231e80026))
+* **deps-dev:** bump packages ([a54834e](https://github.com/wmfs/json-schema-to-cardscript/commit/a54834e076dda900b7a83ee1850061c4a0dc3c69))
+* **deps-dev:** update dev dependancies ([7d8d438](https://github.com/wmfs/json-schema-to-cardscript/commit/7d8d4384b2aae3644c24980ddc41ae0bb08150bc))
+
+
+### ♻️ Chores
+
+* add package keyword ([90554c6](https://github.com/wmfs/json-schema-to-cardscript/commit/90554c6878760a23a185c7184251197013959497))
+* remove package keyword ([1d627a5](https://github.com/wmfs/json-schema-to-cardscript/commit/1d627a51e617c0045fa75262d0943f08d945d279))
+
 # [1.14.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.13.0...v1.14.0) (2019-07-12)
 
 
