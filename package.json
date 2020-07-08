@@ -10,7 +10,7 @@
   "main": "./lib/index.js",
   "dependencies": {
     "@wmfs/tymly-data-types": "1.5.0",
-    "lodash": "4.17.15",
+    "lodash": "4.17.19",
     "lodash-inflection": "1.5.0"
   },
   "devDependencies": {
