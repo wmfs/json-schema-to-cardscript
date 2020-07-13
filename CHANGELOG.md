@@ -1,3 +1,56 @@
+# [1.16.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.15.0...v1.16.0) (2020-07-13)
+
+
+### 🛠 Builds
+
+* **deps:** bump lodash from 4.17.15 to 4.17.19 ([abd0e71](https://github.com/wmfs/json-schema-to-cardscript/commit/abd0e71c2db86d5887feca7ec51aaf3358a29888))
+* **deps-dev:** bump [@semantic-release](https://github.com/semantic-release)/changelog from 3.0.6 to 5.0.0 ([fa2b768](https://github.com/wmfs/json-schema-to-cardscript/commit/fa2b7681eb11e136a22a89d1c4b4f50f09e3f49b))
+* **deps-dev:** bump [@semantic-release](https://github.com/semantic-release)/changelog from 5.0.0 to 5.0.1 ([c497b9e](https://github.com/wmfs/json-schema-to-cardscript/commit/c497b9e9e7966bfe4e9188f5e81a724fd0ea67ef))
+* **deps-dev:** bump [@semantic-release](https://github.com/semantic-release)/git from 7.0.18 to 9.0.0 ([caf46ec](https://github.com/wmfs/json-schema-to-cardscript/commit/caf46ec8cd005b9d8f9b728af9ffe5237884ac44))
+* **deps-dev:** bump codecov from 3.6.1 to 3.6.2 ([ef28fe7](https://github.com/wmfs/json-schema-to-cardscript/commit/ef28fe7c4dac1eddd5bf62c69e39e0cad26350ee))
+* **deps-dev:** bump codecov from 3.6.2 to 3.6.3 ([0546748](https://github.com/wmfs/json-schema-to-cardscript/commit/0546748436665663b049187da64ede83a32f49e8))
+* **deps-dev:** bump codecov from 3.6.3 to 3.6.4 ([a44cb91](https://github.com/wmfs/json-schema-to-cardscript/commit/a44cb91f52e62d89f524b8bf752ccf6ddd9fdf69))
+* **deps-dev:** bump codecov from 3.6.4 to 3.6.5 ([b6bbe7d](https://github.com/wmfs/json-schema-to-cardscript/commit/b6bbe7d358449cf2dbf08dad6b310aa5b00fc7bb))
+* **deps-dev:** bump codecov from 3.6.5 to 3.7.0 ([6e9224b](https://github.com/wmfs/json-schema-to-cardscript/commit/6e9224b79615bab3eb0b5859f417ec701bf7512a))
+* **deps-dev:** bump conventional-changelog-metahub from 3.0.0 to 4.0.0 ([d15ef74](https://github.com/wmfs/json-schema-to-cardscript/commit/d15ef749966fba74e3f1cd8c51e630760c63a3cb))
+* **deps-dev:** bump conventional-changelog-metahub from 4.0.0 to 4.0.1 ([3ddf473](https://github.com/wmfs/json-schema-to-cardscript/commit/3ddf4731f4dc223e3557aba2a96a01eb0c0876fe))
+* **deps-dev:** bump cz-conventional-changelog from 3.0.2 to 3.1.0 ([c0273ff](https://github.com/wmfs/json-schema-to-cardscript/commit/c0273ff6c03fcfd4c7a09e8e1badf48dea8cf25b))
+* **deps-dev:** bump cz-conventional-changelog from 3.1.0 to 3.2.0 ([7d34498](https://github.com/wmfs/json-schema-to-cardscript/commit/7d344985c549898b78257e6d022300e758c53d7a))
+* **deps-dev:** bump mocha from 6.2.2 to 7.0.0 ([f5cfac8](https://github.com/wmfs/json-schema-to-cardscript/commit/f5cfac81b032a81c9c662c0f9cc8a17ef6ac624c))
+* **deps-dev:** bump mocha from 7.0.0 to 7.0.1 ([c000be0](https://github.com/wmfs/json-schema-to-cardscript/commit/c000be0026605a422f05202ddb6f83615e0684a2))
+* **deps-dev:** bump mocha from 7.0.1 to 7.1.0 ([c99345a](https://github.com/wmfs/json-schema-to-cardscript/commit/c99345afbf39198cb53e93033056a43a10919fe4))
+* **deps-dev:** bump mocha from 7.1.0 to 7.1.1 ([c383c64](https://github.com/wmfs/json-schema-to-cardscript/commit/c383c648f80ba2c32c03cf2c21b05f6432bbd29a))
+* **deps-dev:** bump mocha from 7.1.1 to 7.1.2 ([56aa3f4](https://github.com/wmfs/json-schema-to-cardscript/commit/56aa3f4771a0cedf69f81cfd48ce01310cd00717))
+* **deps-dev:** bump mocha from 7.1.2 to 7.2.0 ([6a6c8fa](https://github.com/wmfs/json-schema-to-cardscript/commit/6a6c8fa8d70784a79b2f7ce9a39dde3e407e8bb8))
+* **deps-dev:** bump mocha from 7.2.0 to 8.0.1 ([0e10130](https://github.com/wmfs/json-schema-to-cardscript/commit/0e10130f5e049d83619a06b4756fac816bc54ab6))
+* **deps-dev:** bump nyc from 15.0.0 to 15.0.1 ([afaf3a2](https://github.com/wmfs/json-schema-to-cardscript/commit/afaf3a2c41c6b228c2410ddcc849749e5f88fc31))
+* **deps-dev:** bump nyc from 15.0.1 to 15.1.0 ([7f241b2](https://github.com/wmfs/json-schema-to-cardscript/commit/7f241b2efb5f49b4f03f804ffa734526b07d8fba))
+* **deps-dev:** bump semantic-release from 15.14.0 to 17.0.2 ([449d9dd](https://github.com/wmfs/json-schema-to-cardscript/commit/449d9dd6d2a60357755fcc83590574881e0e610e))
+* **deps-dev:** bump semantic-release from 17.0.2 to 17.0.3 ([a718258](https://github.com/wmfs/json-schema-to-cardscript/commit/a718258db09acf9c7a27d9a2b2784cfa265a2fdc))
+* **deps-dev:** bump semantic-release from 17.0.3 to 17.0.4 ([f43ee06](https://github.com/wmfs/json-schema-to-cardscript/commit/f43ee064b76840252e76c4862d86ffb1793f0907))
+* **deps-dev:** bump semantic-release from 17.0.4 to 17.0.5 ([7d2605f](https://github.com/wmfs/json-schema-to-cardscript/commit/7d2605f0438735619bc522c153e3be06cbabdc8b))
+* **deps-dev:** bump semantic-release from 17.0.5 to 17.0.6 ([528df51](https://github.com/wmfs/json-schema-to-cardscript/commit/528df5172b625b77df39ff5386df43868bb633dc))
+* **deps-dev:** bump semantic-release from 17.0.6 to 17.0.7 ([a22df87](https://github.com/wmfs/json-schema-to-cardscript/commit/a22df87c42749f9d233c2a56ab8ca289de397d93))
+* **deps-dev:** bump semantic-release from 17.0.7 to 17.0.8 ([957743d](https://github.com/wmfs/json-schema-to-cardscript/commit/957743dc435cd331008569b07cf9347204da00cd))
+* **deps-dev:** bump semantic-release from 17.0.8 to 17.1.0 ([7f98b6b](https://github.com/wmfs/json-schema-to-cardscript/commit/7f98b6bfda783d62a2e877be5a72b0b164b92f1f))
+* **deps-dev:** bump semantic-release from 17.1.0 to 17.1.1 ([f434dc3](https://github.com/wmfs/json-schema-to-cardscript/commit/f434dc30637fe59bc04611839206cff58b005d10))
+* **deps-dev:** bump standard from 14.3.1 to 14.3.2 ([fdc4f9c](https://github.com/wmfs/json-schema-to-cardscript/commit/fdc4f9c65d52986cba83ca1884125e4cdd737bfa))
+* **deps-dev:** bump standard from 14.3.2 to 14.3.3 ([b1964c8](https://github.com/wmfs/json-schema-to-cardscript/commit/b1964c836b5ab741c18062fc56c6560fd9a9c71a))
+* **deps-dev:** bump standard from 14.3.3 to 14.3.4 ([8cc492c](https://github.com/wmfs/json-schema-to-cardscript/commit/8cc492c401d455c88ba1f974a331e5f498b1fb49))
+* **deps-dev:** update standard requirement from 12.0.1 to 14.3.1 ([2525e90](https://github.com/wmfs/json-schema-to-cardscript/commit/2525e90fef1ca249e92034739368c50729432b22))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** add context env var config to config.yml ([5538a67](https://github.com/wmfs/json-schema-to-cardscript/commit/5538a67fbe546a11addd274f482b3a0c4a1732b4))
+* **circle:** use updated circle node image [skip ci] ([d40f29e](https://github.com/wmfs/json-schema-to-cardscript/commit/d40f29e0ac3d76c925951c69a4250da9ca3ad5b3))
+
+
+### 💎 Styles
+
+* Do not access Object.prototype method 'hasOwnProperty' from target object ([2ba9e2e](https://github.com/wmfs/json-schema-to-cardscript/commit/2ba9e2ef9bfaddf3e7096324544847c1ce59a8a3))
+* standard --fix ([e893bc2](https://github.com/wmfs/json-schema-to-cardscript/commit/e893bc206f965e3efadea7aeb2f572f8865d4172))
+
 # [1.15.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.14.0...v1.15.0) (2019-12-31)
 
 
