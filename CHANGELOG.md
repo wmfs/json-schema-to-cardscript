@@ -1,3 +1,19 @@
+# [1.17.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.16.0...v1.17.0) (2020-08-17)
+
+
+### 🛠 Builds
+
+* **deps:** bump lodash from 4.17.19 to 4.17.20 ([829233e](https://github.com/wmfs/json-schema-to-cardscript/commit/829233ef3ad5f349a3b8859dffc96d7e245ea6a8))
+* **deps-dev:** bump codecov from 3.7.0 to 3.7.1 ([568be4e](https://github.com/wmfs/json-schema-to-cardscript/commit/568be4ee0ae8b4d4856675d0dd6041c670094dc1))
+* **deps-dev:** bump codecov from 3.7.1 to 3.7.2 ([6be2231](https://github.com/wmfs/json-schema-to-cardscript/commit/6be2231d94b8e4d7c08a18edd02a691bf1dbee08))
+* **deps-dev:** bump mocha from 8.0.1 to 8.1.0 ([811b949](https://github.com/wmfs/json-schema-to-cardscript/commit/811b949fda2b229648ba8118b0a8682f780697d1))
+* **deps-dev:** bump mocha from 8.1.0 to 8.1.1 ([2a97a22](https://github.com/wmfs/json-schema-to-cardscript/commit/2a97a220398a63cc14a43a1dc9a1e75a6b477a71))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** separate lint job [ch1009] ([a8855b8](https://github.com/wmfs/json-schema-to-cardscript/commit/a8855b822483c4483bc409cca6bd167cd381860a))
+
 # [1.16.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.15.0...v1.16.0) (2020-07-13)
 
 
