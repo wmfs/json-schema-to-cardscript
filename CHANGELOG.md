@@ -1,3 +1,52 @@
+# [1.18.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.17.0...v1.18.0) (2021-02-24)
+
+
+### 🛠 Builds
+
+* **deps:** bump lodash from 4.17.20 to 4.17.21 ([93eda46](https://github.com/wmfs/json-schema-to-cardscript/commit/93eda46afc47d3f0ec8d879f0c47252c0aa17ac0))
+* **deps-dev:** bump chai from 4.2.0 to 4.3.0 ([0ad651a](https://github.com/wmfs/json-schema-to-cardscript/commit/0ad651af6748bd5829107378c772b97f3bc262ac))
+* **deps-dev:** bump codecov from 3.7.2 to 3.8.0 ([3c4196b](https://github.com/wmfs/json-schema-to-cardscript/commit/3c4196b88feca52fdf89735e94953ae475b521ca))
+* **deps-dev:** bump codecov from 3.8.0 to 3.8.1 ([b86a688](https://github.com/wmfs/json-schema-to-cardscript/commit/b86a68838e307417e9791d7ac0ad3054c75a43be))
+* **deps-dev:** bump cz-conventional-changelog from 3.2.0 to 3.2.1 ([547ec1c](https://github.com/wmfs/json-schema-to-cardscript/commit/547ec1cb9d8874ff430f78d93ef6203d47d7d880))
+* **deps-dev:** bump cz-conventional-changelog from 3.2.1 to 3.3.0 ([48c9725](https://github.com/wmfs/json-schema-to-cardscript/commit/48c97254487d6f66f90a20b5a15ae7bd12da7633))
+* **deps-dev:** bump mocha from 8.1.1 to 8.1.2 ([f8a636f](https://github.com/wmfs/json-schema-to-cardscript/commit/f8a636f9ed5fdcb0b8bea93b04b597aacebe7fe2))
+* **deps-dev:** bump mocha from 8.1.2 to 8.1.3 ([e904b32](https://github.com/wmfs/json-schema-to-cardscript/commit/e904b32d0a60be4b5c674001b1d4ec824ac0ffcc))
+* **deps-dev:** bump mocha from 8.1.3 to 8.2.0 ([a33d0f4](https://github.com/wmfs/json-schema-to-cardscript/commit/a33d0f47a1058b0ba4e828238c37a277eda91262))
+* **deps-dev:** bump mocha from 8.2.0 to 8.2.1 ([d81bd02](https://github.com/wmfs/json-schema-to-cardscript/commit/d81bd0299b63c212d5e39aa721fda7f016220c97))
+* **deps-dev:** bump mocha from 8.2.1 to 8.3.0 ([5efef97](https://github.com/wmfs/json-schema-to-cardscript/commit/5efef97060e8f325166de6289589be7507447bbe))
+* **deps-dev:** bump semantic-release from 17.1.1 to 17.1.2 ([8ad0101](https://github.com/wmfs/json-schema-to-cardscript/commit/8ad0101c7a8331ea08656e8231d33d5bfdaa90e8))
+* **deps-dev:** bump semantic-release from 17.1.2 to 17.2.0 ([9b010e9](https://github.com/wmfs/json-schema-to-cardscript/commit/9b010e9df07933faf1e7ff5a6b38345fae1151ae))
+* **deps-dev:** bump semantic-release from 17.2.0 to 17.2.1 ([48f0edd](https://github.com/wmfs/json-schema-to-cardscript/commit/48f0eddec510c1537127f0cc5828448212606655))
+* **deps-dev:** bump semantic-release from 17.2.1 to 17.2.2 ([b3f247a](https://github.com/wmfs/json-schema-to-cardscript/commit/b3f247ad2fc34da949bc330fe73c7d9bdacdce9d))
+* **deps-dev:** bump semantic-release from 17.2.2 to 17.2.3 ([ea204e1](https://github.com/wmfs/json-schema-to-cardscript/commit/ea204e1606412021e47d088f85e3f32dfc2647c8))
+* **deps-dev:** bump semantic-release from 17.2.3 to 17.2.4 ([cb4b11c](https://github.com/wmfs/json-schema-to-cardscript/commit/cb4b11c68b5cf69dd60f0ed5f70776851390015c))
+* **deps-dev:** bump semantic-release from 17.2.4 to 17.3.0 ([911b8eb](https://github.com/wmfs/json-schema-to-cardscript/commit/911b8eb70b36a4d7a2fa885ceaec64bd77d2d9d3))
+* **deps-dev:** bump semantic-release from 17.3.0 to 17.3.1 ([ab93e0c](https://github.com/wmfs/json-schema-to-cardscript/commit/ab93e0cd1cdeed3826816c21b9dec33c506d3534))
+* **deps-dev:** bump semantic-release from 17.3.1 to 17.3.2 ([ae29e59](https://github.com/wmfs/json-schema-to-cardscript/commit/ae29e5995072fff5add0aa59b10eb959924c7627))
+* **deps-dev:** bump semantic-release from 17.3.2 to 17.3.3 ([7bbef19](https://github.com/wmfs/json-schema-to-cardscript/commit/7bbef19a4c1e259b7017c258e8e79f284ae09ee8))
+* **deps-dev:** bump semantic-release from 17.3.3 to 17.3.4 ([12f4e85](https://github.com/wmfs/json-schema-to-cardscript/commit/12f4e8569922eee1974a416e9f2d53534ebfc9e7))
+* **deps-dev:** bump semantic-release from 17.3.4 to 17.3.5 ([c567b78](https://github.com/wmfs/json-schema-to-cardscript/commit/c567b78cbaea09deea289672a9e44446ac404904))
+* **deps-dev:** bump semantic-release from 17.3.5 to 17.3.6 ([fd87676](https://github.com/wmfs/json-schema-to-cardscript/commit/fd87676a485c52d2b7f15d576d3578079cd941cf))
+* **deps-dev:** bump semantic-release from 17.3.6 to 17.3.7 ([6a08d11](https://github.com/wmfs/json-schema-to-cardscript/commit/6a08d1153cfee712b89dc5164e265033cb65d437))
+* **deps-dev:** bump semantic-release from 17.3.7 to 17.3.8 ([5a625fd](https://github.com/wmfs/json-schema-to-cardscript/commit/5a625fdd63494e97d45a5e4b852fdbd0b9230aed))
+* **deps-dev:** bump semantic-release from 17.3.8 to 17.3.9 ([f37c5f9](https://github.com/wmfs/json-schema-to-cardscript/commit/f37c5f95521f87404ccf2ff8728b1f054d97567b))
+* **deps-dev:** bump standard from 14.3.4 to 15.0.0 ([398ceb0](https://github.com/wmfs/json-schema-to-cardscript/commit/398ceb0a5551fb90c05ea25bd04a627ad996a69c))
+* **deps-dev:** bump standard from 15.0.0 to 15.0.1 ([30dabaa](https://github.com/wmfs/json-schema-to-cardscript/commit/30dabaa005c96bd51dbb8edca32f7755113f4ce1))
+* **deps-dev:** bump standard from 15.0.1 to 16.0.2 ([5c58676](https://github.com/wmfs/json-schema-to-cardscript/commit/5c586763c98590c8ebab6b567a70389e433d2290))
+* **deps-dev:** bump standard from 16.0.2 to 16.0.3 ([88e52ea](https://github.com/wmfs/json-schema-to-cardscript/commit/88e52ea33f493a5efa1cbb05af4534b27c4e3ab4))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** authenticate Docker image pull [ch2767] ([43b8386](https://github.com/wmfs/json-schema-to-cardscript/commit/43b8386e6cb5a8d7dd252b060a26afb9c04b1526))
+* **circle:** cache dependencies [ch2770] ([706c2b5](https://github.com/wmfs/json-schema-to-cardscript/commit/706c2b51abd7d539b613e4abec743d1994a2f5fc))
+* **circle:** update build environment variable context name [ch2771] ([0fa550d](https://github.com/wmfs/json-schema-to-cardscript/commit/0fa550d83316becfb53a4ab95ec74021309932be))
+
+
+### 💎 Styles
+
+* Default parameters should be last ([beda334](https://github.com/wmfs/json-schema-to-cardscript/commit/beda3346b39828f388603ce94d121c26947a3d59))
+
 # [1.17.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.16.0...v1.17.0) (2020-08-17)
 
 
