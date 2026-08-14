@@ -1,3 +1,5 @@
+## [1.19.1](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.19.0...v1.19.1) (2026-08-14)
+
 ## [1.19.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.18.0...v1.19.0) (2025-10-21)
 
 ### Code Refactor :recycle:
