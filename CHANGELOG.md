@@ -1,3 +1,21 @@
+## [1.20.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.19.1...v1.20.0) (2026-10-30)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** fix conventionalcommit versions [sc-34125] ([6252051](https://github.com/wmfs/json-schema-to-cardscript/commit/6252051282fee02760a1821c27c0875f034ac93b))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v10.4.0 ([#306](https://github.com/wmfs/json-schema-to-cardscript/issues/306)) ([2c3cbc1](https://github.com/wmfs/json-schema-to-cardscript/commit/2c3cbc19ae316867e89a1201ab2f88cf8fb00d38))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v10.4.1 ([#311](https://github.com/wmfs/json-schema-to-cardscript/issues/311)) ([0fae653](https://github.com/wmfs/json-schema-to-cardscript/commit/0fae6537df8225c880d70ba15c4d9314823e5c52))
+* **deps-dev:** update dependency mocha to v12 ([#307](https://github.com/wmfs/json-schema-to-cardscript/issues/307)) ([df5d3ec](https://github.com/wmfs/json-schema-to-cardscript/commit/df5d3ec8584c33f2a3183ee1a27d470978d17890))
+* **deps-dev:** update dependency mocha to v12.0.1 ([#308](https://github.com/wmfs/json-schema-to-cardscript/issues/308)) ([af03ac2](https://github.com/wmfs/json-schema-to-cardscript/commit/af03ac273c25c5fc25331ffde25b653e481d2e9d))
+* **deps-dev:** update dependency mocha to v12.0.2 ([#309](https://github.com/wmfs/json-schema-to-cardscript/issues/309)) ([7b545f6](https://github.com/wmfs/json-schema-to-cardscript/commit/7b545f61d0ff042047ff43aaec6a984c7945fec8))
+* **deps-dev:** update dependency mocha to v12.0.3 ([#310](https://github.com/wmfs/json-schema-to-cardscript/issues/310)) ([678a1c1](https://github.com/wmfs/json-schema-to-cardscript/commit/678a1c12d67ea5d16288b7f1ba64ccc33e892604))
+* **deps:** update dependency lodash to v4.18.1 [security] ([#284](https://github.com/wmfs/json-schema-to-cardscript/issues/284)) ([1b72396](https://github.com/wmfs/json-schema-to-cardscript/commit/1b723962898d3aecdf8d7dfaf25eb316c841c0d2))
+
+### CICD Configuration Changes :construction_worker:
+
+* use github-app-token orb for release token [sc-34101] ([#314](https://github.com/wmfs/json-schema-to-cardscript/issues/314)) ([fd403a7](https://github.com/wmfs/json-schema-to-cardscript/commit/fd403a72b5ff10b80c4fc5f0cebb9b701d246da6))
+* use shared renovate preset [sc-34117] ([#312](https://github.com/wmfs/json-schema-to-cardscript/issues/312)) ([10e96b3](https://github.com/wmfs/json-schema-to-cardscript/commit/10e96b338056d28342b9e09a8f1fd2250104b74d))
+
 ## [1.19.1](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.19.0...v1.19.1) (2026-08-14)
 
 ## [1.19.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.18.0...v1.19.0) (2025-10-21)
