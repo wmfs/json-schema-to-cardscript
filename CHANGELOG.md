@@ -1,3 +1,9 @@
+## [1.21.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.20.0...v1.21.0) (2026-11-02)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency @wmfs/tymly-data-types to v1.6.1 ([#313](https://github.com/wmfs/json-schema-to-cardscript/issues/313)) ([28e0a95](https://github.com/wmfs/json-schema-to-cardscript/commit/28e0a95a547b0dd7a7e8e3808b9b8b72b1ae532e))
+
 ## [1.20.0](https://github.com/wmfs/json-schema-to-cardscript/compare/v1.19.1...v1.20.0) (2026-10-30)
 
 ### Build system dependencies :hammer:
